@@ -108,7 +108,7 @@ export const Caso1 = () => {
           </thead>
           <tbody>
             {Array.from(Array(contadorTempo)).map((_, index) => (
-              <tr className="" key={index}>
+              <tr key={index}>
                 <th
                   scope="row"
                   className="px-6 py-2 font-medium text-gray-900 whitespace-nowrap"
